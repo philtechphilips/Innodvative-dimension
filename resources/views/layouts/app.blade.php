@@ -17,11 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Mada:wght@200..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  @vite('resources/css/app.css')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    @vite('resources/css/app.css')
 </head>
 
 <body class="font-[Mulish] overflow-x-hidden bg-white">
@@ -29,12 +26,14 @@
     @yield('content')
 
 
-    {{-- @include('includes.footer') --}}
+    @include('includes.footer')
 
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            once: true
+        });
     </script>
     {{-- Navigation Script --}}
     <script>
@@ -94,7 +93,7 @@
         ];
         let index = 0;
         const textElement = document.getElementById('rotating-text');
-    
+
         setInterval(() => {
             textElement.classList.add('opacity-0');
             setTimeout(() => {
@@ -104,6 +103,19 @@
             }, 500);
         }, 3000);
     </script>
+
+<script>
+    function toggleDropdown() {
+        const dropdown = document.getElementById('dropdownMenu');
+        if (dropdown.classList.contains('opacity-0')) {
+            dropdown.classList.remove('opacity-0', 'pointer-events-none');
+            dropdown.classList.add('opacity-100', 'pointer-events-auto');
+        } else {
+            dropdown.classList.remove('opacity-100', 'pointer-events-auto');
+            dropdown.classList.add('opacity-0', 'pointer-events-none');
+        }
+    }
+</script>
     @yield('script')
 </body>
 

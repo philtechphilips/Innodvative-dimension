@@ -16,9 +16,16 @@
         <li class="text-[#141D38] hover:text-primary font-semibold">
            <a href="/about-us">About us</a>
         </li> 
-        <li class="text-[#141D38] hover:text-primary font-semibold">
-            <a href="/about-us">Our Companies</a>
-         </li>
+       
+        <li class="text-[#141D38] relative cursor-pointer flex items-center font-semibold" onclick="toggleDropdown()">
+            <p>Our Companies</p>
+            <i class="ri-arrow-drop-down-line text-2xl mt-1"></i>
+            <div id="dropdownMenu" class="bg-white p-5 absolute top-10 w-60 flex flex-col gap-4 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out">
+                <a href="/">The Natural Pharmacy</a>
+                <a href="/">The Natural Gardens and Farms</a>
+            </div>
+        </li>
+        
         <li class="text-[#141D38] hover:text-primary font-semibold">
             <a href="/services">Our Services</a>
         </li>
