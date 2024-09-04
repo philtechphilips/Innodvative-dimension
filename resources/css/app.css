@@ -30,7 +30,7 @@
     width: 100%;
 }
 
-.accordion{
+.accordion {
     border-bottom: solid 2px #efefef;
 }
 
@@ -51,4 +51,8 @@
 .accordion-top,
 .accordion-top h2 {
     transition: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }

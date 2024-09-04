@@ -14,23 +14,25 @@
         </li>
 
         <li class="text-[#141D38] hover:text-primary font-semibold">
-           <a href="/about-us">About us</a>
+           <a href="/#about">About us</a>
         </li> 
        
         <li class="text-[#141D38] relative cursor-pointer flex items-center font-semibold" onclick="toggleDropdown()">
             <p>Our Companies</p>
             <i class="ri-arrow-drop-down-line text-2xl mt-1"></i>
             <div id="dropdownMenu" class="bg-white p-5 absolute top-10 w-60 flex flex-col gap-4 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out">
-                <a href="/">The Natural Pharmacy</a>
-                <a href="/">The Natural Gardens and Farms</a>
+                <a href="/natural-farmacy.html">The Natural Pharmacy</a>
+                <a href="/natural-garden.html">The Natural Gardens and Farms</a>
             </div>
         </li>
         
         <li class="text-[#141D38] hover:text-primary font-semibold">
-            <a href="/services">Our Services</a>
+            <a href="#services">Our Services</a>
         </li>
         <li class="text-[#141D38] hover:text-primary font-semibold">
-            <a href="/contact">Contact us</a>
+            <div class="flex cursor-pointer text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
+                <p>+234 708 654 9580</p>
+            </div>
         </li>
     </ul>
 </header>

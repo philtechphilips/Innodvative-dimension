@@ -19,5 +19,9 @@ Route::get('/', function () {
 
 
 Route::get('/natural-farmacy.html', function () {
+    return view("neuropath");
+});
+
+Route::get('/natural-garden.html', function () {
     return view('nataural-farmacy');
 });

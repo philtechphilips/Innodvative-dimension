@@ -18,7 +18,7 @@
             </p>
 
             <div data-aos="fade-up" data-aos-duration="1000" class="flex items-center justify-center md:justify-start">
-                <a href="/" class="flex text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
+                <a href="https://www.instagram.com/cropappetit/" class="flex text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
                     <p>Learn More</p>
                     <i class="ri-arrow-right-s-line mt-1"></i>
                 </a>
@@ -27,7 +27,7 @@
         <div class="bg-black w-full h-screen absolute top-0 z-0 left-0 opacity-45"></div>
     </section>
 
-    <section class="md:px-24 px-5 w-full py-28 bg-slate-50 flex flex-col md:flex-row gap-16">
+    <section id="about" class="md:px-24 px-5 w-full py-28 bg-slate-50 flex flex-col md:flex-row gap-16">
         <div data-aos="fade-up" data-aos-duration="1000" class="md:w-1/2">
             <img src="{{ asset('images/433851635_373330142241124_5471280272476323151_n.webp') }}" alt="">
         </div>
@@ -43,7 +43,7 @@
                 balance between nature, nutrition, and wellness, ensuring a healthier and more sustainable future for
                 everyone.</p>
             <div data-aos="fade-up" data-aos-duration="1000" class="flex items-center justify-center md:justify-start">
-                <a href="/" class="flex text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
+                <a href="https://www.instagram.com/cropappetit/" class="flex text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
                     <p>Learn More</p>
                     <i class="ri-arrow-right-s-line mt-1"></i>
                 </a>
@@ -66,14 +66,14 @@
 
 
 
-    <section class="md:px-24 px-5 w-full py-28 bg-slate-50 flex flex-col md:flex-row gap-4">
+    <section id="services" class="md:px-24 px-5 w-full py-28 bg-slate-50 flex flex-col md:flex-row gap-4">
         <div class="md:w-[40%]">
             <h1 class="text-4xl font-bold mb-6 text-center md:text-left">Our Services</h1>
             <p class="text-lg leading-8 mb-4 text-center md:text-left">
                 We foster a sustainable world by promoting advanced farming techniques and providing holistic health
                 solutions that enhance overall well-being.
             </p>
-            <a href="/" class="md:flex hidden text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
+            <a href="https://www.instagram.com/cropappetit/" class="md:flex hidden text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
                 <p>Learn More</p>
                 <i class="ri-arrow-right-s-line mt-1"></i>
             </a>
