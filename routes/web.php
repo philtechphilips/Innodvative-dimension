@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/natural-farmacy.html', function () {
+    return view('nataural-farmacy');
+});

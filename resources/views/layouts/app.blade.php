@@ -22,11 +22,11 @@
 </head>
 
 <body class="font-[Mulish] overflow-x-hidden bg-white">
-    @include('includes.navbar')
+
     @yield('content')
 
 
-    @include('includes.footer')
+
 
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -104,18 +104,18 @@
         }, 3000);
     </script>
 
-<script>
-    function toggleDropdown() {
-        const dropdown = document.getElementById('dropdownMenu');
-        if (dropdown.classList.contains('opacity-0')) {
-            dropdown.classList.remove('opacity-0', 'pointer-events-none');
-            dropdown.classList.add('opacity-100', 'pointer-events-auto');
-        } else {
-            dropdown.classList.remove('opacity-100', 'pointer-events-auto');
-            dropdown.classList.add('opacity-0', 'pointer-events-none');
+    <script>
+        function toggleDropdown() {
+            const dropdown = document.getElementById('dropdownMenu');
+            if (dropdown.classList.contains('opacity-0')) {
+                dropdown.classList.remove('opacity-0', 'pointer-events-none');
+                dropdown.classList.add('opacity-100', 'pointer-events-auto');
+            } else {
+                dropdown.classList.remove('opacity-100', 'pointer-events-auto');
+                dropdown.classList.add('opacity-0', 'pointer-events-none');
+            }
         }
-    }
-</script>
+    </script>
     @yield('script')
 </body>
 

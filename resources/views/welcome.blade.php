@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@include('includes.navbar')
+
 @section('content')
     <section class="md:px-24 px-5 relative w-full h-screen flex flex-col justify-center"
         style="background: url('{{ asset('images/hero-bg.jpg') }}'); background-size: cover; background-position: center center;">
@@ -179,4 +181,7 @@
             </div>
         </section>
     </section>
+
+    @include('includes.footer')
 @endsection()
+
