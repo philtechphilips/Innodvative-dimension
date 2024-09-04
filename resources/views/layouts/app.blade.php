@@ -5,6 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Meta Title for SEO -->
+    <meta name="title" content="International Dimension | Improving lives through sustainable farming practices">
+
+    <!-- Meta Description for the Parent Company -->
+    <meta name="description"
+        content="International Dimension Limited is committed to improving lives through sustainable farming practices. We focus on ethical farming, eco-friendly solutions, and high-quality produce for healthier communities.">
+
+    <!-- Meta Keywords -->
+    <meta name="keywords"
+        content="International Dimension, sustainable farming, ethical agriculture, eco-friendly farming, organic produce, livestock farming, crop planting, healthy communities, sustainable agriculture">
+
     <title>International Dimension | Improving lives through sustainable farming practices</title>
 
     <link rel="icon" href="{{ asset('images/icon.jpg') }}">

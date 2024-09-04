@@ -1,5 +1,6 @@
 <div class="w-full md:px-20 px-5 flex items-center h-12 bg-gray-900">
-    <p id="rotating-text" class="text-white transition-opacity duration-1000 opacity-100">We grow your food naturally with fairness and care</p>
+    <p id="rotating-text" class="text-white transition-opacity duration-1000 opacity-100">We grow your food naturally with
+        fairness and care</p>
 </div>
 
 <header
@@ -14,23 +15,25 @@
         </li>
 
         <li class="text-[#141D38] hover:text-primary font-semibold">
-           <a href="/#about">About us</a>
-        </li> 
-       
+            <a href="/#about">About us</a>
+        </li>
+
         <li class="text-[#141D38] relative cursor-pointer flex items-center font-semibold" onclick="toggleDropdown()">
             <p>Our Companies</p>
             <i class="ri-arrow-drop-down-line text-2xl mt-1"></i>
-            <div id="dropdownMenu" class="bg-white p-5 absolute top-10 w-60 flex flex-col gap-4 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out">
+            <div id="dropdownMenu"
+                class="bg-white p-5 absolute top-10 w-60 flex flex-col gap-4 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out">
                 <a href="/natural-farmacy.html">The Natural Pharmacy</a>
                 <a href="/natural-garden.html">The Natural Gardens and Farms</a>
             </div>
         </li>
-        
+
         <li class="text-[#141D38] hover:text-primary font-semibold">
             <a href="#services">Our Services</a>
         </li>
         <li class="text-[#141D38] hover:text-primary font-semibold">
-            <div href="/" class="flex cursor-pointer text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
+            <div href="/"
+                class="flex cursor-pointer text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
                 <p>+234 708 654 9580</p>
             </div>
         </li>
@@ -62,22 +65,31 @@
         </li>
 
         <li>
-            <a href="/about-us" class=" font-medium text-xl text-[#434343] leading-6 py-2">About us</a>
+            <a href="#about" class=" font-medium text-xl text-[#434343] leading-6 py-2">About us</a>
         </li>
 
         <li>
-            <a href="/services" class=" font-medium text-xl text-[#434343] leading-6 py-2">Services</a>
+            <a href="#services" class=" font-medium text-xl text-[#434343] leading-6 py-2">Services</a>
         </li>
 
         <li>
-            <a href="/contact" class=" font-medium text-xl text-[#434343] leading-6 py-2">Contact</a>
+            <a href="/natural-farmacy.html" class=" font-medium text-xl text-[#434343] leading-6 py-2">The Natural
+                Pharmacy</a>
 
+        </li>
+
+
+        <li>
+            <a href="/natural-garden.html" class=" font-medium text-xl text-[#434343] leading-6 py-2">The Natural
+                Gardens and Farms</a>
         </li>
 
         <li class="flex gap-2 items-center rounded-lg px-6 py-3">
-            <a href="/contact"
-                class="bg-primary hover:bg-[#6676CC] z-[1000000] text-white px-8 py-3 rounded-full text-lg font-medium">Consult
-                us today
+            <a href="tel:+2347086549580">
+                <div 
+                    class="flex cursor-pointer text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
+                    <p>+234 708 654 9580</p>
+                </div>
             </a>
         </li>
     </ul>

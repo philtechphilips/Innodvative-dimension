@@ -27,7 +27,7 @@
         <div class="bg-black w-full h-screen absolute top-0 z-0 left-0 opacity-70"></div>
     </section>
 
-    <section class="md:px-10 px-5 w-full py-28 bg-slate-50 flex flex-col md:flex-row gap-16">
+    <section id="about" class="md:px-10 px-5 w-full py-28 bg-slate-50 flex flex-col md:flex-row gap-16">
         <div data-aos="fade-up" data-aos-duration="1000" class="md:w-1/2">
             <img src="{{ asset('images/about-2.webp') }}" alt="">
         </div>
@@ -51,7 +51,7 @@
         </div>
     </section>
 
-    <section class="md:px-10 px-5 w-full pb-28 bg-slate-50 flex flex-col">
+    <section id="services" class="md:px-10 px-5 w-full pb-28 bg-slate-50 flex flex-col">
         <div class="md:w-[40%]">
             <h1 class="text-4xl font-bold mb-6 text-center md:text-left">Our Services</h1>
         </div>

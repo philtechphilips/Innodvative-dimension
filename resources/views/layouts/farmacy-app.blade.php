@@ -5,6 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Meta Description -->
+    <meta name="description"
+        content="The Natural Gardens and Farms offers sustainable livestock farming, poultry breeding, organic crop and vegetable planting, and eco-friendly crop spraying. We provide high-quality, naturally grown produce and ethically raised livestock.">
+
+    <!-- Meta Keywords -->
+    <meta name="keywords"
+        content="Natural Gardens and Farms, organic farming, livestock farming, poultry breeding, crop planting, vegetable farming, maize, spinach, kale, bitter leaf, catfish farming, eco-friendly crop spraying, sustainable agriculture">
+
+    <meta name="author" content="The Natural Gardens and Farms">
+
+    <meta property="og:title" content="The Natural Gardens and Farms | Sustainable Farming and Livestock">
+
+    <meta property="og:description"
+        content="Explore sustainable agriculture with The Natural Gardens and Farms. Offering organic produce, poultry breeding, livestock farming, and eco-friendly crop spraying.">
+
+    <meta property="og:type" content="website">
+
     <title>The Natural Gardens and Farms | Fresh, healthy, and organic produce </title>
 
     <link rel="icon" href="{{ asset('images/d-natural-farmacy-logo.jpg') }}">
