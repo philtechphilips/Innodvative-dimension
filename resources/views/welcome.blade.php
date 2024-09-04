@@ -39,7 +39,7 @@
                 International Dimension Limited, we are dedicated to improving lives
                 through
                 sustainable farming practices and holistic health solutions. As a parent company, we oversee two specialized
-                subsidiaries: The Natural Gardens and Farms, and The Natural Pharmacy. Our mission is to create a harmonious
+                subsidiaries: The Natural Gardens and Farms, and The Natural Farmacy. Our mission is to create a harmonious
                 balance between nature, nutrition, and wellness, ensuring a healthier and more sustainable future for
                 everyone.</p>
             <div data-aos="fade-up" data-aos-duration="1000" class="flex items-center justify-center md:justify-start">
@@ -172,7 +172,7 @@
 
                     <div class="px-5 accordion-bottom rounded-b-lg">
                         <p class="font-base font-[Mada] text-[#7B808E]">
-                            The Natural Pharmacy is dedicated to reversing diseases and enhancing health through certified
+                            The Natural Farmacy is dedicated to reversing diseases and enhancing health through certified
                             neuropathy, nutrition, and holistic modalities. We offer a range of natural health products and
                             services designed to promote overall well-being.
                         </p>

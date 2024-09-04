@@ -14,7 +14,7 @@
 
             <p data-aos="fade-up" data-aos-duration="1000"
                 class="tet-white text-center md:text-left font-medium text-white mt-8 mb-6">
-                At The Natural Pharmacy, we specialize in reversing diseases and restoring vitality through certified
+                At The Natural Farmacy, we specialize in reversing diseases and restoring vitality through certified
                 naturopathic care, holistic treatments, and organic skincare. Discover the power of natural healing and
                 experience wellness from the inside out. Let nature be your guide to a healthier, happier you.
             </p>
@@ -40,7 +40,7 @@
             <h1 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-bold mb-6 text-center md:text-left">About
                 Us</h1>
             <p data-aos="fade-up" data-aos-duration="1000" class="text-lg leading-8 mb-4 text-center md:text-left">
-                At The Natural Pharmacy, we are dedicated to helping you achieve lasting health and wellness through
+                At The Natural Farmacy, we are dedicated to helping you achieve lasting health and wellness through
                 certified naturopathic care, holistic treatments, and natural skincare. We believe in the power of nature to
                 heal and restore balance in both the body and mind.
                 Our approach focuses on reversing chronic conditions and supporting overall well-being by treating the root
@@ -99,7 +99,7 @@
     <section class="md:px-10 px-5 w-full flex flex-col justify-center h-96 relative overflow-hidden"
         style="background: url('{{ asset('images/about-image.jpg') }}'); background-size: cover; background-position: center center; background-attachment: fixed;">
         <h1 data-aos="fade-up" data-aos-duration="1000"
-            class="tex-xl text-white font-bold text-4xl z-10 md:text-left text-center">Why Choose The Natural Pharmacy?</h1>
+            class="tex-xl text-white font-bold text-4xl z-10 md:text-left text-center">Why Choose The Natural Farmacy?</h1>
        
             <ul class="flex flex-col gap-5 list-disc z-10">
                 <li>

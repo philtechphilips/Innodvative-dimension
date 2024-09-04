@@ -23,7 +23,7 @@
             <i class="ri-arrow-drop-down-line text-2xl mt-1"></i>
             <div id="dropdownMenu"
                 class="bg-white p-5 absolute top-10 w-60 flex flex-col gap-4 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out">
-                <a href="/natural-farmacy.html">The Natural Pharmacy</a>
+                <a href="/natural-farmacy.html">The Natural Farmacy</a>
                 <a href="/natural-garden.html">The Natural Gardens and Farms</a>
             </div>
         </li>
@@ -73,7 +73,7 @@
 
         <li>
             <a href="/natural-farmacy.html" class=" font-medium text-xl text-[#434343] leading-6 py-2">The Natural
-                Pharmacy</a>
+                Farmacy</a>
 
         </li>
 
