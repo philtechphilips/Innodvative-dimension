@@ -2,9 +2,9 @@
     <div class="flex flex-col gap-6 md:w-[25%] w-full">
         <img src="{{ asset('images/logo.jpg') }}" class="w-36 z-10" alt="">
         <div class="flex flex-col gap-2">
-            <p class="text-white z-10">9,Alhaji Amoo Street Ojota Lagos.</p>
-        <p class="text-white z-10">+234 708 654 9580</p>
-        <p class="text-white z-10">info@innovativedimensionsltd.com</p>
+            <p class="text-white z-10">22 Peace Avenue Imuro Ogijo.</p>
+        <p class="text-white z-10">+234 701 617 6829</p>
+        <p class="text-white z-10">natural-farmacy@innovativedimensionsltd.com</p>
         </div>
     </div>
 

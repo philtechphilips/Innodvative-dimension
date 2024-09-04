@@ -18,7 +18,8 @@
             </p>
 
             <div data-aos="fade-up" data-aos-duration="1000" class="flex items-center justify-center md:justify-start">
-                <a href="https://www.instagram.com/cropappetit?igsh=MXczcHozbmNsdnJtcw==" class="flex text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
+                <a href="https://www.instagram.com/cropappetit?igsh=MXczcHozbmNsdnJtcw=="
+                    class="flex text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
                     <p>Learn More</p>
                     <i class="ri-arrow-right-s-line mt-1"></i>
                 </a>
@@ -35,13 +36,14 @@
         <div class="md:w-1/2">
             <h1 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-bold mb-6 text-center md:text-left">About
                 Us</h1>
-            <p data-aos="fade-up" data-aos-duration="1000" class="text-lg leading-8 mb-4 text-center md:text-left">At
+            <p data-aos="fade-up" data-aos-duration="1000" class="text-lg leading-8 mb-4 text-center md:text-left">
                 At The Natural Gardens and Farms, we are committed to sustainable and innovative agricultural practices that
                 ensure the highest quality products for our customers. Nestled in nature's embrace, our farm thrives on a
                 deep respect for the environment, animals, and the communities we serve.
             </p>
             <div data-aos="fade-up" data-aos-duration="1000" class="flex items-center justify-center md:justify-start">
-                <a href="https://www.instagram.com/cropappetit?igsh=MXczcHozbmNsdnJtcw==" class="flex text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
+                <a href="https://www.instagram.com/cropappetit?igsh=MXczcHozbmNsdnJtcw=="
+                    class="flex text-white gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
                     <p>Learn More</p>
                     <i class="ri-arrow-right-s-line mt-1"></i>
                 </a>
@@ -98,8 +100,6 @@
 
     </section>
 
-
-
     <section class="md:px-24 px-5 w-full flex flex-col justify-center h-96 relative overflow-hidden"
         style="background: url('{{ asset('images/about-image.jpg') }}'); background-size: cover; background-position: center center; background-attachment: fixed;">
         <h1 data-aos="fade-up" data-aos-duration="1000" class="tex-xl text-white font-bold text-5xl z-10 text-center">Reach
@@ -108,7 +108,8 @@
             Join us in our journey towards a healthier, more sustainable future. Explore our farm and discover the
             difference that natural, ethical farming can make.</p>
         <div data-aos="fade-up" data-aos-duration="1000" class="flex items-center justify-center z-10 mt-5">
-            <a href="tel:+2347086549580" class="flex text-white z-10 gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
+            <a href="tel:+2347086549580"
+                class="flex text-white z-10 gap-0 items-center bg-[#0E623E] rounded-lg w-fit px-6 py-2">
                 <p>+234 708 654 9580</p>
             </a>
         </div>
