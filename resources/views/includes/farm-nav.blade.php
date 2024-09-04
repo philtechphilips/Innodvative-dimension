@@ -5,7 +5,7 @@
 <header
     class="hidden sticky bg-white z-[100000] top-0 md:px-12 px-5 w-full md:flex items-center justify-between py-5 max-h-20">
     <a href="/">
-        <img src="{{ asset('images/d-natural-farmacy-logo.jpg') }}" class="w-20" alt="">
+        <img src="{{ asset('images/natural-garden.png') }}" class="w-20" alt="">
     </a>
 
     <ul class="flex items-center gap-12">
@@ -36,7 +36,7 @@
 </header>
 <header class="md:px-24  sticky bg-white z-[10000] top-0 px-5 w-full flex md:hidden items-center justify-between py-5">
     <a href="/">
-        <img src="{{ asset('images/d-natural-farmacy-logo.jpg') }}" class="w-24" alt="">
+        <img src="{{ asset('images/natural-garden.png') }}" class="w-24" alt="">
     </a>
 
     <i class="ri-menu-fill text-3xl menuButton"></i>
@@ -46,7 +46,7 @@
     class="w-full  z-[999999] p-5 md:hidden bg-white h-screen fixed top-0 left-0 translate-x-[500px] duration-[300ms] ease-in transform">
     <div class="flex items-center justify-between mb-20">
         <a href="/">
-            <img src="{{ asset('images/d-natural-farmacy-logo.jpg') }}" alt="" class="w-24">
+            <img src="{{ asset('images/natural-garden.png') }}" alt="" class="w-24">
         </a>
 
         <div class="w-10 h-10 menuButton flex items-center justify-center">
