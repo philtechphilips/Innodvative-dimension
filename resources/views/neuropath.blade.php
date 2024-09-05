@@ -1,4 +1,4 @@
-@extends('layouts.farmacy-app')
+@extends('layouts.the-farmacy-app')
 
 @include('includes.health-nav')
 
