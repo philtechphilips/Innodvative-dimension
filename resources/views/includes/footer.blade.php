@@ -12,9 +12,8 @@
     <div class="flex flex-col gap-4 z-10 md:w-[10%] w-full">
         <h6 class="text-[#B2B5BD] text-xl font-semibold">Links</h6>
         <a href="/" class="text-white">Home</a>
-        <a href="/about-us" class="text-white">About us</a>
-        <a href="/services" class="text-white">Our Services</a>
-        <a href="/contact" class="text-white">Contact us</a>
+        <a href="#about" class="text-white">About us</a>
+        <a href="#services" class="text-white">Our Services</a>
     </div>
 
     <div class="flex flex-col gap-4 z-10 md:w-[20%] w-full">
